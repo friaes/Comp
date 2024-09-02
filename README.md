@@ -1,1 +1,1 @@
-# COMP
+# Compilers Course Project
