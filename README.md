@@ -1,1 +1,1 @@
-# Compilers Course Project
+# Compilers IST Project
