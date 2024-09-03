@@ -1,0 +1,4 @@
+(program 
+	(println (% 150 100))   
+	(return 0) 
+)

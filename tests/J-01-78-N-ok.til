@@ -1,0 +1,6 @@
+(var f (function (void) (println "ola")))
+(program
+  (f)
+  (return 0)
+)
+

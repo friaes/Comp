@@ -1,0 +1,7 @@
+((void) f)
+(program
+  (set f (function (void) (int x 3) (println x)))
+  (f)
+  (return 0)
+)
+

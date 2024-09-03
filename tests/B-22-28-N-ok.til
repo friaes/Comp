@@ -1,0 +1,6 @@
+(program 
+	(if 0 
+		 (println "KO") 
+		 (println "OK")) 
+	(return 0) 
+)

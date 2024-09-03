@@ -1,0 +1,5 @@
+(program
+  (println (sizeof null))
+  (return 0)
+)
+

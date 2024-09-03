@@ -1,0 +1,8 @@
+(forward (int (int)) g)
+(var f (function (int (string s)) (println s) (return 10)))
+(var g (function (int (int n)) (println n) (return 10)))
+(program
+  (f "ola")
+  (return 0)
+)
+

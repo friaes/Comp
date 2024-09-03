@@ -1,0 +1,5 @@
+(string x "ole2")     
+(program 
+	(println x)                          
+	(return 0) 
+)

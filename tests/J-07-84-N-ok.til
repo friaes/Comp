@@ -1,0 +1,6 @@
+(var f (function (void) (int main 1) (println (+ (* 2 main) main))))
+(program
+  (f)
+  (return 0)
+)
+

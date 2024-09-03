@@ -1,0 +1,8 @@
+(int x)
+(program
+  (println 9)
+  (set x 1)
+  (loop (< x (- 3)) (block (println x) (set x (+ x 1))))
+  (return 0)
+)
+

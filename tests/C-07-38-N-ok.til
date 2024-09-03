@@ -1,0 +1,6 @@
+(int x)               
+(program 
+	(set x (- 2)) 
+	(println (+ 1 (* (- x) 3)))       
+	(return 0) 
+)

@@ -1,0 +1,7 @@
+(forward (void) f)
+(public f (function (void) (int x 3) (println x)))
+(program
+  (f)
+  (return 0)
+)
+

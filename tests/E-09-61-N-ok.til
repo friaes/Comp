@@ -1,0 +1,6 @@
+(program
+  (int x 0)
+  (loop (<= x 29) (block (println x) (set x (+ x 1))))
+  (return 0)
+)
+

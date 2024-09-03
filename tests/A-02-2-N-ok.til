@@ -1,0 +1,5 @@
+(program
+  (println "s" "tr" "i" "ng")
+  (return 0)
+)
+

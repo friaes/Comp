@@ -1,0 +1,5 @@
+(int x)               
+(program 
+	(println (- x x))                                 
+	(return 0) 
+)

@@ -1,0 +1,15 @@
+(var f (function (int! (int! p))
+  (set (index p 2) 1)
+  (return p)
+))
+(program
+  (int! p null)
+  (set p (objects 3))
+  (set (index p 0) 100)
+  (set (index p 1)  40)
+  (set (index p 2)   0)
+  (f p)
+  (println (index p 2))
+  (return 0)
+)
+

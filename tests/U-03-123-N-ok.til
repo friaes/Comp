@@ -1,0 +1,11 @@
+(var f (function (int (int i)) (return (+ i 1))))
+(var g (function (int (int n) ((int (int)) fun)) (return (fun n))))
+(var h (function (int (int n) ((int (int)) f1) ((int (int)) f2)) (return (f1 (f2 n)))))
+(program
+  (println (g 3 f))  ; escreve 4
+  (println (g 3 (function (int (int i)) (return (* i 2)))))  ; escreve 6
+  (println (g ((function (int (int i)) (return (+ 7 i))) 8) (function (int (int i)) (return (* i 2)))))  ; escreve 30
+  (println (h 3 (function (int (int n)) (return (+ n 4))) (function (int (int n)) (return (* 7 n)))))  ; escreve 25
+  (return 0)
+)
+

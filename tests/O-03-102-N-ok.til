@@ -1,0 +1,7 @@
+(var f (function (double (double y)) (return 9)))
+(program
+  (println (f 10))
+  (println (f 2))
+  (return 0)
+)
+

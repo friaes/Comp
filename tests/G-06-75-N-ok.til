@@ -1,0 +1,6 @@
+(var i 1.1)
+(program
+  (println (sizeof i))
+  (return 0)
+)
+

@@ -1,0 +1,12 @@
+(program
+  (var x 0)
+  (loop (<= x 29) (block
+    (if (== (% x 2) 0) (block
+      (loop (<= x 14) (block (println "") (set x (+ x 1))))
+      (println x)
+    ))
+    (set x (+ x 1))
+  ))
+  (return 0)
+)
+

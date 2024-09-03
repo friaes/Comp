@@ -1,0 +1,7 @@
+(int x)
+(program
+  (set x 1)
+  (loop (<= x 5) (block (println x) (set x (+ x 2))))
+  (return 0)
+)
+

@@ -1,0 +1,10 @@
+(int x 10)
+(int y 3)
+(int z 30)
+(var f (function (int) (set z 7) (return z)))
+(program
+  (&& (== x y) (f))
+  (println z)
+  (return 0)
+)
+

@@ -1,0 +1,6 @@
+(var f (function (void (int x)) (println x)))
+(program
+  (f 3)
+  (return 0)
+)
+

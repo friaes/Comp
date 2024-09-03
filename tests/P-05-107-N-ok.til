@@ -1,0 +1,10 @@
+(double f)
+(program
+  (double! p null)
+  (set p (objects 3))
+  (set (index p 1) 6)
+  (set f (index p 1))
+  (println f)
+  (return 0)
+)
+

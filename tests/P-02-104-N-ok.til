@@ -1,0 +1,14 @@
+(int! f)
+(program
+  (int! g null)
+  (set g (objects 2))
+  (set f (objects 1))
+  (set (index f 0) 3)
+  (set (index g 0) 7)
+  (set (index g 1) 8)
+  (println (index f 0))
+  (println (index g 0))
+  (println (index g 1))
+  (return 0)
+)
+

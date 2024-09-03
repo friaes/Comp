@@ -1,0 +1,5 @@
+(program
+  (println (sizeof "ol�"))
+  (return 0)
+)
+

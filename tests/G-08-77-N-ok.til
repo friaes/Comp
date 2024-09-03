@@ -1,0 +1,6 @@
+(var f (function (double) (return 1.1)))
+(program
+  (println (sizeof (f)))
+  (return 0)
+)
+

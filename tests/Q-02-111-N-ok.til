@@ -1,0 +1,13 @@
+(public main (function (double! (double! p)) (return (+ 1 p))))
+(program
+  (double! p null)
+  (double! q null)
+  (set p (objects 3))
+  (set (index p 0) 3.1)
+  (set (index p 1) 2.1)
+  (set (index p 2) 6.1E1)
+  (set q (main (main p)))
+  (println (index q 0))
+  (return 0)
+)
+

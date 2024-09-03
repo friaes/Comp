@@ -1,0 +1,5 @@
+(program 
+	(println 0x2f) 
+	(println 0x2f) 
+	(return 0) 
+)

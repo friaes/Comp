@@ -1,0 +1,15 @@
+(program
+  (int y 1)
+  (loop (<= y 3) (block
+    (int x 1)
+    (loop (<= x 6) (block
+      (if (== (% y 2) 1)
+          (block (set x (+ x 1)) (next))
+          (println x))
+      (set x (+ x 1))
+    ))
+    (set y (+ y 1))
+  ))
+  (return 0)
+)
+

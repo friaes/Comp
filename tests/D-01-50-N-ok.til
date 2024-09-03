@@ -1,0 +1,9 @@
+(program
+   (if 0
+       (println "KO")
+       (if 1
+           (println "elif")
+           (println "OK")))
+   (return 0)
+)
+

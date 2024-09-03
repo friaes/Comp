@@ -1,0 +1,6 @@
+(var pi (function (int) (return 314)))
+(program
+  (println (pi))
+  (return 0)
+)
+

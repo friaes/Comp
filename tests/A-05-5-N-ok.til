@@ -1,0 +1,4 @@
+(program 
+	(println 10)                  
+	(return 0) 
+)

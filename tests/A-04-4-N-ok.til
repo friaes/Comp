@@ -1,0 +1,5 @@
+(program
+  (println "\101" /* "not" "a" "string" */ "A")
+  (return 0)
+)
+

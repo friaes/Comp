@@ -1,0 +1,8 @@
+(public int x 10)
+(var f (function (void) (int x 3) (println x)))
+(program
+  (f)
+  (println x)
+  (return 0)
+)
+

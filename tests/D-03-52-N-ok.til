@@ -1,0 +1,15 @@
+(program
+   (if 0 
+       (println "KO")
+       (if 0
+           (println "elif1")
+           (if 0
+               (println "elif2")
+               (if 0
+                   (println "elif3")
+                   (if 0
+                       (println "elif4")
+                       (println "OK"))))))
+  (return 0)
+)
+

@@ -1,0 +1,13 @@
+((double (int)) f (function (double (int i)) (return (+ i 1.1))))
+((int (double)) g (function (int (double d)) (return (- 1))))
+((double ((double (int)) int)) h (function (double ((double (int)) f) (int i)) (return (f i))))
+(program
+  ((double (int)) ff g)
+  (println (f 0))    ; escreve 1.1
+  (set f g)
+  (println (f 0))    ; escreve -1
+  (println (ff 0))   ; escreve -1
+  (println (h g 0))  ; escreve -1
+  (return 0)
+)
+

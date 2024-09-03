@@ -1,0 +1,6 @@
+(external (int) argc)
+(program
+  (println (argc))
+  (return 0)
+)
+

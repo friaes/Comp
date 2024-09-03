@@ -1,0 +1,16 @@
+(program
+  (int x 1)
+  (loop (<= x 3) (block
+    (int y 3)
+    (println "I	ER x=" x)
+    (loop (>= y 0) (block
+      (println y)
+      (if (&& (== y 2) (== x 2)) (stop 2))
+      (set y (- y 1))
+    ))
+    (set x (+ x 1))
+  ))
+  (println x)
+  (return 0)
+)
+

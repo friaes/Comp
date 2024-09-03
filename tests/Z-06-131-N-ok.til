@@ -1,0 +1,8 @@
+(program
+  ((int (int)) f)
+  ((int (int)) g (set f (function (int (int i)) (return (+ i 1)))))
+  (println (g 1))
+  (println (f 2))
+  (return 0)
+)
+

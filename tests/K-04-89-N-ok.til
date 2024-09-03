@@ -1,0 +1,6 @@
+(var f (function (int (int x)) (return (+ 1 x))))
+(program
+  (println (f 3))
+  (return 0)
+)
+
